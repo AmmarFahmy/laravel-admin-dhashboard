@@ -26,10 +26,9 @@ class ArticleController extends AdminController
     protected function grid()
     {
         $grid = new Grid(new Article());
-        // $grid->thumbnail()->image('', '50', '50');
         $grid->column('thumbnail')->image('', '60', '60');
         $grid->title();
-        // $grid->subtitle();
+        $grid->column('article.title', 'Category');
         $grid->description();
 
         return $grid;
