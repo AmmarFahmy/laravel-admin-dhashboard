@@ -275,7 +275,7 @@ return [
     |    "skin-red", "skin-red-light", "skin-black", "skin-black-light".
     |
     */
-    'skin' => env('ADMIN_SKIN', 'skin-blue-light'),
+    'skin' => env('ADMIN_SKIN', 'skin-purple-light'),
 
     /*
     |--------------------------------------------------------------------------
@@ -310,7 +310,7 @@ return [
     | each page
     |
     */
-    'show_version' => true,
+    'show_version' => false,
 
     /*
     |--------------------------------------------------------------------------
